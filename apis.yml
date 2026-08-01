@@ -1,7 +1,24 @@
 aid: qusecure
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/qusecure.png
 name: QuSecure
-description: QuSecure is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: QuSecure is a post-quantum cybersecurity company whose QuProtect R3 platform helps
+  enterprises and government agencies discover, remediate, and report on cryptographic risk ahead of
+  the quantum-computing threat. The platform pairs Recon (automated inventory of cryptographic assets),
+  Resilience (crypto-agile remediation of encryption without code changes or downtime), and Reporting
+  (Cryptographic Bill of Materials / CBOM for NIST, FIPS, CNSA 2.0, and GDPR compliance). QuSecure
+  serves telecom, defense, finance, and critical-infrastructure customers including Fortune 500
+  companies and U.S. federal agencies. This profile currently exposes no public developer API surface.
 url: https://raw.githubusercontent.com/api-evangelist/qusecure/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Post-Quantum Cryptography
+- Cybersecurity
+- Cryptography
+- Crypto-Agility
+- Compliance
+- Encryption
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +46,18 @@ maintainers:
 common:
 - type: Website
   url: https://qusecure.com/
+- type: Blog
+  url: https://www.qusecure.com/blog/
+- type: Support
+  url: https://www.qusecure.com/contact-us/
+- type: TermsOfService
+  url: https://www.qusecure.com/terms-conditions/
+- type: PrivacyPolicy
+  url: https://www.qusecure.com/privacy-policy/
+- type: DomainSecurity
+  url: security/qusecure-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
